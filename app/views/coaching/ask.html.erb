@@ -1,0 +1,5 @@
+<%= form_tag('/answer', method: 'get') do %>
+    <%= label_tag(:question, 'Speak to your coach:') %>
+    <%= text_field_tag(:question) %>
+    <%= submit_tag('Go on!') %>
+<% end %>
